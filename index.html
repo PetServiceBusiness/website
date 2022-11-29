@@ -6,10 +6,41 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="challenge-node"></div>
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-    <script src="react.js"></script>
+    <div id="header-hero">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.gingrapp.com/hs-fs/hubfs/gingr_feb2010/Images/gingr-image-3.jpg?width=1348&height=900&name=gingr-image-3.jpg" class="d-block" alt="carousel_1" style="height:100%; width:100%; object-fit: cover;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.gingrapp.com/hs-fs/hubfs/gingr_feb2010/Images/gingr-image-3.jpg?width=1348&height=900&name=gingr-image-3.jpg" class="d-block" alt="carousel_2" style="height:100%; width:100%; object-fit: cover;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.gingrapp.com/hs-fs/hubfs/gingr_feb2010/Images/gingr-image-3.jpg?width=1348&height=900&name=gingr-image-3.jpg" class="d-block" alt="carousel_3" style="height:100%; width:100%; object-fit: cover;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.gingrapp.com/hs-fs/hubfs/gingr_feb2010/Images/gingr-image-3.jpg?width=1348&height=900&name=gingr-image-3.jpg" class="d-block" alt="carousel_4" style="height:100%; width:100%; object-fit: cover;">
+          </div>
+          <div class="carousel-item active">
+            <img src="https://www.gingrapp.com/hs-fs/hubfs/gingr_feb2010/Images/gingr-image-3.jpg?width=1348&height=900&name=gingr-image-3.jpg" class="d-block" alt="carousel_5" style="height:100%; width:100%; object-fit: cover;">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
  </html>
