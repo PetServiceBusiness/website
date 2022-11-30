@@ -1,5 +1,5 @@
-.carousel {
-    object-fit: cover;
+.header-hero {
     width: 100%;
-    height: 50vh;
+    height: 25vh;
+    background-color: pink;
 }
