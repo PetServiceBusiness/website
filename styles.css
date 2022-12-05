@@ -26,3 +26,11 @@
     height: 50vh;
     object-fit: cover;
 }
+.btn-pink {
+    background-color: rgb(226, 61, 88);
+    color: white;
+}
+.btn-pink:hover {
+    background-color: rgb(143, 28, 47);
+    color: white;
+}
