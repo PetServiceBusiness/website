@@ -7,3 +7,22 @@
 .item {
     padding: 2vh 0;
 }
+@keyframes float {
+    0% {
+        padding-top:200px;
+        opacity: 0%;
+    }
+    100% {
+        padding-top: 0;
+        opacity: 100%;
+    }
+}
+.float-up {
+    animation-name: float;
+    animation-duration: 4s;
+}
+.top-logo {
+    width:50vw;
+    height: 50vh;
+    object-fit: cover;
+}
